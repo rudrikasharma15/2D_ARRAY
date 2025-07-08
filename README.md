@@ -2,7 +2,6 @@
 
 **Author: Rudrika Sharma**
 
-A complete collection of essential 2D array (matrix) patterns to solve interview-level problems from 0 → 100.
 
 ---
 
