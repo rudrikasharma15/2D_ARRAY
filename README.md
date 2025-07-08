@@ -2,6 +2,7 @@
 
 **Author: Rudrika Sharma**
 
+A complete collection of essential 2D array (matrix) patterns to solve interview-level problems from 0 → 100.
 
 ---
 
@@ -141,6 +142,68 @@ int[] dy = {0, 1, 0, -1}; // right, down, left, up
 
 ---
 
+### 9. 🧰 Dynamic Programming on 2D Grid
+
+> For finding paths, minimum cost, obstacle handling.
+
+**🧠 Technique**:
+
+* Use `dp[i][j]` to store result at cell (i, j) based on subproblems
+* Carefully handle edges, base cases
+
+**🔹 Examples**:
+
+* Unique Paths (Leetcode 62)
+* Minimum Path Sum (Leetcode 64)
+* Unique Paths II (Leetcode 63, with obstacles)
+
+---
+
+### 10. 🦄 Union-Find (Disjoint Set) in Grid
+
+> For dynamic connectivity & island merging in grid-based problems.
+
+**🧠 Technique**:
+
+* Map each 2D cell to a 1D index → `row * n + col`
+* Apply union-find (with path compression + union by rank)
+
+**🔹 Examples**:
+
+* Number of Islands II (Leetcode 305)
+* Similar String Groups (grid-style logic)
+
+---
+
+### 11. 🔢 Matrix Transpose
+
+> Flip rows to columns without rotating the matrix fully.
+
+**🧠 Technique**:
+
+* For square matrix: `swap(matrix[i][j], matrix[j][i])` for `i < j`
+
+**🔹 Examples**:
+
+* Transpose Matrix (GFG / Leetcode 867)
+
+---
+
+### 12. 🌐 Matrix Fill (Spiral Fill)
+
+> Fill a matrix with numbers in spiral form.
+
+**🧠 Technique**:
+
+* Use `top`, `bottom`, `left`, `right` boundaries
+* Fill while shrinking boundaries inward
+
+**🔹 Examples**:
+
+* Spiral Matrix II (Leetcode 59)
+
+---
+
 ## ✅ Ready-to-solve Problems (Practice Ladder)
 
 * [ ] Rotate Image (Leetcode 48)
@@ -150,7 +213,11 @@ int[] dy = {0, 1, 0, -1}; // right, down, left, up
 * [ ] Flood Fill (Leetcode 733)
 * [ ] Range Sum Query 2D (Leetcode 304)
 * [ ] Maximum Sum Submatrix (Leetcode 363)
+* [ ] Unique Paths (Leetcode 62)
+* [ ] Minimum Path Sum (Leetcode 64)
+* [ ] Unique Paths II (Leetcode 63)
+* [ ] Spiral Matrix II (Leetcode 59)
+* [ ] Number of Islands II (Leetcode 305)
+
 
 ---
-
-
