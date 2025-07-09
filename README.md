@@ -173,34 +173,8 @@ int[] dy = {0, 1, 0, -1}; // right, down, left, up
 * Number of Islands II (Leetcode 305)
 * Similar String Groups (grid-style logic)
 
----
+--
 
-### 11. 🔢 Matrix Transpose
-
-> Flip rows to columns without rotating the matrix fully.
-
-**🧠 Technique**:
-
-* For square matrix: `swap(matrix[i][j], matrix[j][i])` for `i < j`
-
-**🔹 Examples**:
-
-* Transpose Matrix (GFG / Leetcode 867)
-
----
-
-### 12. 🌐 Matrix Fill (Spiral Fill)
-
-> Fill a matrix with numbers in spiral form.
-
-**🧠 Technique**:
-
-* Use `top`, `bottom`, `left`, `right` boundaries
-* Fill while shrinking boundaries inward
-
-**🔹 Examples**:
-
-* Spiral Matrix II (Leetcode 59)
 
 ---
 
